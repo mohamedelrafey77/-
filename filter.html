@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arappik</title>
+    <link rel="shortcut icon" type="image/xicon" href="img/logo.png" />
+     <!-- css files -->
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+     <link rel="stylesheet" type="text/css" href="css/bootsnav.css" />
+     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+     <!-- font awesome -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  
+
+
+  <!-- start the nav -->
+  <nav class="navbar bootsnav">
+    <div class="container">      
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo@2x.png" class="logo"></a>
+        </div>
+        <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                  <li><a href="#"><img src="img/590c8246-4bd1-4dab-b4b9-da7f63f7c602.png"> الصور</a></li>
+                  <li><a href="#"><img src="img/c59ce0cb-9592-48b0-a48c-8f0808e84586.png"> الفيديو</a></li>
+                  <li><a href="#"><img src="img/528274a8-b618-4a14-b024-007d29c075b4.png"> psd</a></li>
+                  <li><a href="#"><img src="img/6a5f2cc1-ef21-432b-a674-5c86be83a7ce.png"> فيكتور</a></li>
+                  <li><a href="ALl-Categories.html"><img src="img/allcategory.png">كل التصنيفات</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="#"><i class="fas fa-globe" aria-hidden="true"></i>en</a></li>
+                    <li><a href="#"><i class="fas fa-dollar-sign" aria-hidden="true"></i>بيع محتواك</a></li>
+                    <li><a href="#">الباقات والاسعار</a></li>
+                    <li data-toggle="modal" data-target="#exampleModalLong2"><a href="#">تسجيل الدخول</a></li>
+                    <li data-toggle="modal" data-target="#exampleModalLong"><a href="#">حساب جديد</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>   
+    </nav>
+    <!-- end the navbar -->
+
+
+
+    <!-- start the newsign section -->
+    <section class="newsign">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" data-keyboard="false" data-backdrop="static" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                        <div class="modal-body">
+                            <img src="img/logo.png" alt="logo">
+                            <h3>إنشاء حساب جديد</h3>
+                            <p>لإنشاء حساب جديد يرجي إدخال البيانات المطلوبة</p>
+                            <div class="socialauth">
+                              <button>
+                                <a href="#">
+                                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                  فيسبوك
+                                </a>
+                              </button>
+                               <button>
+                                <a href="#">
+                                  <i class="fab fa-google" aria-hidden="true"></i>
+                                  جوجل
+                                </a>
+                              </button>
+                            </div>
+                            <form role="form">
+                                <div class="form-group">
+                                  <i class="far fa-user" aria-hidden="true"></i>
+                                  <input type="text" placeholder="اسمك الشخصي" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="far fa-envelope" aria-hidden="true"></i>
+                                  <input type="email" placeholder="البريد الالكتروني" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                  <input type="text" placeholder="رقم الهاتف" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-lock" aria-hidden="true"></i>
+                                  <input type="password" placeholder="كلمة المرور" />
+                                  <i class="fas fa-eye" aria-hidden="true"></i>
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-lock" aria-hidden="true"></i>
+                                  <input type="password" placeholder="تأكيد كلمة المرور" />
+                                  <i class="fas fa-eye" aria-hidden="true"></i>
+                                </div>
+                                <h6>بالتسجيل في عرب بيك فأنت توافق علي الشروط والأحكام واتفاقية التراخيص</h6>
+                                <button>إنشاء حساب</button>
+                            </form>
+                            <li>لديك حساب بالفعل
+                              ,<span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong2">تسجيل الدخول</span>
+                            </li>
+                        </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+    <!--end the newsign section -->
+
+
+    <!-- modal signin -->
+    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                  <div class="modal-body">
+                      <img src="img/logo.png" alt="logo">
+                      <h3>تسجيل الدخول</h3>
+                      <p>مرحبا بك في عرب بيك  , للمتابعة يرجي تسجيل الدخول</p>
+                      <div class="socialauth">
+                        <button>
+                          <a href="#">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            فيسبوك
+                          </a>
+                        </button>
+                        <button>
+                          <a href="#">
+                            <i class="fab fa-google" aria-hidden="true"></i>
+                            جوجل
+                          </a>
+                        </button>
+                      </div>
+                      <form role="form">
+                          <div class="form-group">
+                            <i class="far fa-envelope" aria-hidden="true"></i>
+                            <input type="email" placeholder="البريد الالكتروني" />
+                          </div>
+                          <div class="form-group">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            <input type="password" placeholder="كلمة المرور" />
+                            <i class="fas fa-eye" aria-hidden="true"></i>
+                          </div>
+                          <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong3">  نسيت كلمة السر ؟</span>
+                          <button>تسجيل الدخول</button>
+                      </form>
+                      <li>ليس لديك حساب ؟ 
+                       <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong">إنشاء حساب جديد</span>
+                      </li>
+                  </div>
+            </div>
+        </div>
+    </div>
+  <!-- end modal signin-->
+
+    
+    <!-- modal resetpassword -->
+    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>استعادة كلمة المرور</h3>
+                    <p>لاستعادة كلمة المرور قم بإدخال البريد الإلكتروني المسجل به ليصلك عليه رمز التأكيد</p>
+                    <form role="form">
+                        <div class="form-group">
+                          <i class="far fa-envelope" aria-hidden="true"></i>
+                          <input type="email" placeholder="البريد الالكتروني" />
+                        </div>
+                        <button>إرسال</button>
+                    </form>
+                    <li>هل تواجه مشكلة ما ؟
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong4">التواصل مع الدعم</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal resetpassword -->
+
+
+     <!-- modal passwordconfirmation -->
+     <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>رمز التأكيد</h3>
+                    <p>أدخل رمز التأكيد المكون من 5 أرقام</p>
+                    <a href="#" id="send">إعادة الإرسال</a>
+                    <form role="form">
+                        <ul>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                        </ul>
+                        <button>تأكيد</button>
+                    </form>
+                    <li>هل تواجه مشكلة ما ؟
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong5">التواصل مع الدعم</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal passwordconfirmation -->
+
+
+    
+     <!-- modal newpassword -->
+     <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>كلمة مرور جديدة</h3>
+                    <p>قم بإدخال كلمة المرور الجديدة بحيث لا تتشابه مع كلمة المرور القديمة</p>
+                    <form role="form">
+                      <div class="form-group">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="كلمة المرور" />
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="تأكيد كلمة المرور" />
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                      </div>
+                        <button>إنشاء</button>
+                    </form>
+                    <li>العودة إلي 
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong2">تسجيل الدخول</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal newpassword -->
+
+
+
+     <!-- start the searchgroup section  -->
+     <section class="searchgroup">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-lg-12">
+                  <form>
+                      <div class="form-group">
+                          <select class="fa">
+                              <option value='fas- fa-image'>&#xf03e; الصور</option>
+                              <option value='fas- fa-video'>&#xf03d; الفيديو</option>
+                              <option value='fas- fa-vector-square'>&#xf5cb; الفيكتور</option>
+                              <option value='fas- fa-vector-square'>PSD &#xf5cb;</option>
+                          </select>
+                          <input type="search" placeholder="رجل عربي">
+                          <button>
+                              <i class="fas fa-search" aria-hidden="true"></i>
+                          </button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- end the searchgroup section -->
+
+
+    <!-- start the filter section -->
+    <section class="filter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <h2>لقد عثرت علي 1.200 نتيجة ل " رجل عربي "</h2>
+            <p>تم العثور علي 1.200 نتيجة من الصور ، الفيديو ، الرسومات ، ملفات </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-9">
+            <ul>
+              <li class="opensetting"><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"> تصفية</li>
+              <li><img src="img/590c8246-4bd1-4dab-b4b9-da7f63f7c602.png"> الصور</li>
+              <li><img src="img/c59ce0cb-9592-48b0-a48c-8f0808e84586.png"> الفيديو</li>
+              <li><img src="img/528274a8-b618-4a14-b024-007d29c075b4.png"> PSD</li>
+              <li><img src="img/6a5f2cc1-ef21-432b-a674-5c86be83a7ce.png"> فيكتور</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+              <h6>تصنيف حسب</h6>
+              <select>
+                <option>الأشهر</option>
+                <option>الأسابيع</option>
+              </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end the filter section -->
+
+
+      <!-- start the setting-box -->
+      <div class="setting-box">
+        <div class="spinicon">
+            <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
+        </div>
+        <div class="setting-container">
+            <h4>تصفية نتائج البحث</h4>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+              نوع المصدر
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse" id="collapseExample1">
+                <li><input type="checkbox"> الكل</li>
+                <li><input type="checkbox"> الصور</li>
+                <li><input type="checkbox"> الفيديو</li>
+                <li><input type="checkbox"> الفيكتور</li>
+                <li><input type="checkbox"> ملفات psd</li>
+            </ul>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-calendar" aria-hidden="true"></i>
+              تاريخ النشر
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <select class="collapse" id="collapseExample2">
+              <option>أخر 3 أشهر</option>
+              <option>أخر 4 أشهر</option>
+              <option>أخر 5 أشهر</option>
+            </select>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-user" aria-hidden="true"></i>
+              الأشخاص
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse" id="collapseExample3">
+              <li><input type="checkbox">يحتوي علي أشخاص</li>
+              <li><input type="checkbox">لا يحتوي علي أشخاص</li>
+            </ul>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-users" aria-hidden="true"></i>
+              الأعمار
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse" id="collapseExample4">
+              <li><input type="checkbox">طفل</li>
+              <li><input type="checkbox">مراهق</li>
+              <li><input type="checkbox">شاب</li>
+              <li><input type="checkbox">عجوز</li>
+            </ul>  
+            <button type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-users" aria-hidden="true"></i>
+              نوع الجنس
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse" id="collapseExample5">
+              <li><input type="checkbox">ذكر</li>
+              <li><input type="checkbox">أنثي</li>
+            </ul>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-users" aria-hidden="true"></i>
+              الألوان
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse colors-list" id="collapseExample6">
+              <li class="active" data-color="#ED1C24"></li>
+              <li data-color="#8A2BE2"></li>
+              <li data-color="#7FFF00"></li>
+              <li data-color="#D2691E"></li>
+              <li data-color="#008B8B"></li>
+              <li data-color="#006400"></li>
+              <li data-color="#8B0000"></li>
+              <li data-color="#FFD700"></li>
+              <li data-color="#4B0082"></li>
+            </ul>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-arrow-up" aria-hidden="true"></i>
+              الاتجاه
+              <i class="fas fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul class="collapse" id="collapseExample7">
+              <li><input type="checkbox">الكل</li>
+              <li><input type="checkbox">عمودي</li>
+              <li><input type="checkbox">رأسي</li>
+              <li><input type="checkbox">مربع</li>
+              <li><input type="checkbox">بانوراما</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end the setting-box -->
+
+
+ <!-- start the gallery section -->    
+ <section class="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/b5fb0b1c-36fd-4084-8e5d-13cfc05cd93e.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/b5fb0b1c-36fd-4084-8e5d-13cfc05cd93e.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="itembox">
+          <div class="img-box">
+            <a href="#">
+              <img src="img/tower.jpg" alt="categroy">
+            </a>
+            <div class="icons">
+              <li><img src="img/0ab30652-19ff-463a-bf4b-797860175b50.png"></li>
+              <li><img src="img/036c39c0-cc14-4d3e-8403-7dffc3eb5986.png"></li>
+            </div>
+            <li id="lefticon"><img src="img/1654a4dd-818a-4a8c-a338-560096e53195.png"></li>
+          </div>
+          <div class="item-text">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <li><img src="img/9db48b00-a5ee-4dc5-832c-0c02257b84a7.png">arabpik</li>
+                <li class="counter">50 <i class="fas fa-heart" aria-hidden="true"></i></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end the gallery section -->
+
+
+    <!-- start the switchfilter-pages section -->
+    <section class="switchfilter-pages">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <button><a href="#">إلي الصفحة التالية <i class="fas fa-arrow-left" aria-hidden="true"></i></a></button>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li><a href="#"><i class="fas fa-caret-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#"><i class="fas fa-caret-left" aria-hidden="true"></i></a></li>
+              <span>من 200</span>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end the switchfilter-pages section -->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- start scrolltop div -->
+      <div class="scrollTop" style="opacity: 1;">
+        <span>
+            <a href="robots.txt#">
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </span>
+      </div>
+      <!-- end scrolltop div -->
+
+
+      <!-- start the footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <img src="img/footerlogo.png" alt="logo">
+              <p>نحن منصة رقمية متخصصة في توفير جميع المصادر والمرفقات ذات الطابع
+                 والهوية العربية بمختلف انواعها الخاصة بالإستخدام التجاري أو الشخصي . حيث نقدم لك مرفقات ذات جودة عاليةوشكل حصري من منصة عرب بيك</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>روابط مهمة</h4>
+              <ul>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="#">الخصوصية</a></li>
+                <li><a href="#">اتفاقية التراخيص</a></li>
+                <li><a href="#">الاتصال والدعم</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>تابعنا عبر</h4>
+              <p>تابعونا علي مواقع التواصل الاجتماعي للتعرف علي أخر المستجدات</p>
+              <ul class="social">
+                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>النشرة الاخبارية</h4>
+              <p>اشترك ليصلك كل جديد علي بريدك الإلكتروني</p>
+              <div class="news-subscribe">
+                <input type="email" placeholder="أدخل البريد الإلكتروني">
+                <button type="submit">
+                  <i class="fas fa-paper-plane" aria-hidden="true"></i>                
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerbottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <span>&#169; جميع الحقوق محفوظة - عرب بيك 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end the footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/bootsnav.min.js"></script>
+</body>
+</html>

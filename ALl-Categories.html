@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arappik</title>
+    <link rel="shortcut icon" type="image/xicon" href="img/logo.png" />
+     <!-- css files -->
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+     <link rel="stylesheet" type="text/css" href="css/bootsnav.css" />
+     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+     <!-- font awesome -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  
+
+
+  <!-- start the nav -->
+  <nav class="navbar bootsnav">
+    <div class="container">      
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo@2x.png" class="logo"></a>
+        </div>
+        <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="#"><i class="fas fa-image" aria-hidden="true"></i>الصور</a></li>
+                    <li><a href="#"><i class="fas fa-video" aria-hidden="true"></i>الفيديو</a></li>
+                    <li><a href="#"><i class="fas fa-vector-square" aria-hidden="true"></i>psd</a></li>
+                    <li><a href="#"><i class="fas fa-vector-square" aria-hidden="true"></i>فيكتور</a></li>
+                    <li><a href="#"><i class="fas fa-vector-square" aria-hidden="true"></i>كل التصنيفات</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="#"><i class="fas fa-globe" aria-hidden="true"></i>en</a></li>
+                    <li><a href="#"><i class="fas fa-dollar-sign" aria-hidden="true"></i>بيع محتواك</a></li>
+                    <li><a href="#">الباقات والاسعار</a></li>
+                    <li data-toggle="modal" data-target="#exampleModalLong2"><a href="#">تسجيل الدخول</a></li>
+                    <li data-toggle="modal" data-target="#exampleModalLong"><a href="#">حساب جديد</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>   
+    </nav>
+    <!-- end the navbar -->
+
+
+
+    <!-- start the newsign section -->
+    <section class="newsign">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" data-keyboard="false" data-backdrop="static" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                        <div class="modal-body">
+                            <img src="img/logo.png" alt="logo">
+                            <h3>إنشاء حساب جديد</h3>
+                            <p>لإنشاء حساب جديد يرجي إدخال البيانات المطلوبة</p>
+                            <div class="socialauth">
+                              <button>
+                                <a href="#">
+                                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                  فيسبوك
+                                </a>
+                              </button>
+                               <button>
+                                <a href="#">
+                                  <i class="fab fa-google" aria-hidden="true"></i>
+                                  جوجل
+                                </a>
+                              </button>
+                            </div>
+                            <form role="form">
+                                <div class="form-group">
+                                  <i class="far fa-user" aria-hidden="true"></i>
+                                  <input type="text" placeholder="اسمك الشخصي" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="far fa-envelope" aria-hidden="true"></i>
+                                  <input type="email" placeholder="البريد الالكتروني" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                                  <input type="text" placeholder="رقم الهاتف" />
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-lock" aria-hidden="true"></i>
+                                  <input type="password" placeholder="كلمة المرور" />
+                                  <i class="fas fa-eye" aria-hidden="true"></i>
+                                </div>
+                                <div class="form-group">
+                                  <i class="fas fa-lock" aria-hidden="true"></i>
+                                  <input type="password" placeholder="تأكيد كلمة المرور" />
+                                  <i class="fas fa-eye" aria-hidden="true"></i>
+                                </div>
+                                <h6>بالتسجيل في عرب بيك فأنت توافق علي الشروط والأحكام واتفاقية التراخيص</h6>
+                                <button>إنشاء حساب</button>
+                            </form>
+                            <li>لديك حساب بالفعل
+                              ,<span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong2">تسجيل الدخول</span>
+                            </li>
+                        </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
+    <!--end the newsign section -->
+
+
+    <!-- modal signin -->
+    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                  <div class="modal-body">
+                      <img src="img/logo.png" alt="logo">
+                      <h3>تسجيل الدخول</h3>
+                      <p>مرحبا بك في عرب بيك  , للمتابعة يرجي تسجيل الدخول</p>
+                      <div class="socialauth">
+                        <button>
+                          <a href="#">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            فيسبوك
+                          </a>
+                        </button>
+                        <button>
+                          <a href="#">
+                            <i class="fab fa-google" aria-hidden="true"></i>
+                            جوجل
+                          </a>
+                        </button>
+                      </div>
+                      <form role="form">
+                          <div class="form-group">
+                            <i class="far fa-envelope" aria-hidden="true"></i>
+                            <input type="email" placeholder="البريد الالكتروني" />
+                          </div>
+                          <div class="form-group">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                            <input type="password" placeholder="كلمة المرور" />
+                            <i class="fas fa-eye" aria-hidden="true"></i>
+                          </div>
+                          <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong3">  نسيت كلمة السر ؟</span>
+                          <button>تسجيل الدخول</button>
+                      </form>
+                      <li>ليس لديك حساب ؟ 
+                       <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong">إنشاء حساب جديد</span>
+                      </li>
+                  </div>
+            </div>
+        </div>
+    </div>
+  <!-- end modal signin-->
+
+    
+    <!-- modal resetpassword -->
+    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>استعادة كلمة المرور</h3>
+                    <p>لاستعادة كلمة المرور قم بإدخال البريد الإلكتروني المسجل به ليصلك عليه رمز التأكيد</p>
+                    <form role="form">
+                        <div class="form-group">
+                          <i class="far fa-envelope" aria-hidden="true"></i>
+                          <input type="email" placeholder="البريد الالكتروني" />
+                        </div>
+                        <button>إرسال</button>
+                    </form>
+                    <li>هل تواجه مشكلة ما ؟
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong4">التواصل مع الدعم</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal resetpassword -->
+
+
+     <!-- modal passwordconfirmation -->
+     <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>رمز التأكيد</h3>
+                    <p>أدخل رمز التأكيد المكون من 5 أرقام</p>
+                    <a href="#" id="send">إعادة الإرسال</a>
+                    <form role="form">
+                        <ul>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                          <li><input type="text"></li>
+                        </ul>
+                        <button>تأكيد</button>
+                    </form>
+                    <li>هل تواجه مشكلة ما ؟
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong5">التواصل مع الدعم</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal passwordconfirmation -->
+
+
+    
+     <!-- modal newpassword -->
+     <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="img/Layer 14.png" alt="layer14" id="sideimg">
+                <div class="modal-body">
+                    <img src="img/logo.png" alt="logo">
+                    <h3>كلمة مرور جديدة</h3>
+                    <p>قم بإدخال كلمة المرور الجديدة بحيث لا تتشابه مع كلمة المرور القديمة</p>
+                    <form role="form">
+                      <div class="form-group">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="كلمة المرور" />
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="تأكيد كلمة المرور" />
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                      </div>
+                        <button>إنشاء</button>
+                    </form>
+                    <li>العودة إلي 
+                    <span data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong2">تسجيل الدخول</span>
+                    </li>
+                </div>
+          </div>
+      </div>
+    </div>
+    <!-- end modal newpassword -->
+
+
+    <!-- start the searchgroup section  -->
+    <section class="searchgroup">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <form>
+                        <div class="form-group">
+                            <select class="fa">
+                                <option value='fas- fa-image'>&#xf03e; الصور</option>
+                                <option value='fas- fa-video'>&#xf03d; الفيديو</option>
+                                <option value='fas- fa-vector-square'>&#xf5cb; الفيكتور</option>
+                                <option value='fas- fa-vector-square'>PSD &#xf5cb;</option>
+                            </select>
+                            <input type="search" placeholder="رجل عربي">
+                            <button>
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the searchgroup section -->
+
+
+    <!-- start the bannertitle section -->
+    <section class="bannertitle">
+        <div class="container">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <h2>كل التصنيفات</h2>
+                        <p>اكتشف الكثير من التصنيفات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the bannertitle section -->
+
+
+
+    <!-- start the all-categories section -->
+    <section class="all-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h2>أبرز المواضيع</h2>
+                    <p>أكتشف الكثير من الموضوعات الكثيرة والمتنوعة لدينا</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/healthy.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/sport.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/GettyImages-1330500785.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/buisness.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/healthy.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/sport.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/GettyImages-1330500785.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/buisness.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/healthy.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/sport.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/GettyImages-1330500785.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/buisness.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the all-categories section -->
+
+
+    <!-- start the city section -->
+    <section class="all-categories city">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h2>مدن ومعالم</h2>
+                    <p>أكتشف الكثير من المدن والمعالم بمختلف ثقافاتها</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/healthy.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/sport.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/GettyImages-1330500785.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/buisness.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the city section -->
+
+
+     <!-- start the human section -->
+     <section class="all-categories human">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h2>أشخاص</h2>
+                    <p>أكتشف جميع الفئات العمرية التي تحتاجها في مشاريعك</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/healthy.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/sport.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/GettyImages-1330500785.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="categorybox">
+                        <img src="img/buisness.jpg">
+                        <div class="overlay">
+                            <a href="#">الصحة والمستشفيات</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end the city section -->
+
+
+
+
+
+
+
+
+      <!-- start scrolltop div -->
+      <div class="scrollTop" style="opacity: 1;">
+        <span>
+            <a href="robots.txt#">
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </span>
+      </div>
+      <!-- end scrolltop div -->
+
+
+      <!-- start the footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <img src="img/footerlogo.png" alt="logo">
+              <p>نحن منصة رقمية متخصصة في توفير جميع المصادر والمرفقات ذات الطابع
+                 والهوية العربية بمختلف انواعها الخاصة بالإستخدام التجاري أو الشخصي . حيث نقدم لك مرفقات ذات جودة عاليةوشكل حصري من منصة عرب بيك</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>روابط مهمة</h4>
+              <ul>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">الشروط والاحكام</a></li>
+                <li><a href="#">الخصوصية</a></li>
+                <li><a href="#">اتفاقية التراخيص</a></li>
+                <li><a href="#">الاتصال والدعم</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>تابعنا عبر</h4>
+              <p>تابعونا علي مواقع التواصل الاجتماعي للتعرف علي أخر المستجدات</p>
+              <ul class="social">
+                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h4>النشرة الاخبارية</h4>
+              <p>اشترك ليصلك كل جديد علي بريدك الإلكتروني</p>
+              <div class="news-subscribe">
+                <input type="email" placeholder="أدخل البريد الإلكتروني">
+                <button type="submit">
+                  <i class="fas fa-paper-plane" aria-hidden="true"></i>                
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerbottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <span>&#169; جميع الحقوق محفوظة - عرب بيك 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--end the footer-->
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootsnav.js"></script>
+    <script src="js/bootsnav.min.js"></script>
+</body>
+</html>
